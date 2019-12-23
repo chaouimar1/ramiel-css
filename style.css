@@ -1,0 +1,53 @@
+body { background-color: #111111; }
+
+#ramiel, .circle{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.circle {
+    display: block;
+    border: 3px solid whitesmoke;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 100px;
+}
+
+.topleft {
+    width: 0; 
+    height: 0;
+    border-right: 260px solid transparent;
+    border-bottom: 260px solid #020076;
+    transform: rotateZ(135deg);
+}
+
+.topright {
+    width: 0; 
+    height: 0;
+    border-right: 260px solid transparent;
+    border-top: 260px solid #010159;
+    transform: rotateZ(-45deg);
+}
+
+.bottomleft {
+    width: 0; 
+    height: 0;
+    border-right: 260px solid transparent;
+    border-top: 260px solid #1b1be7;
+    transform: rotateZ(225deg);
+}
+
+.bottomright {
+    width: 0;
+    height: 0px;
+    border-right: 185px solid transparent;
+    border-top: 183px solid #353496;
+    transform: rotateZ(0deg);
+    top: 130px;
+    right: -66px;
+}
+
+.ramparts {
+    position: absolute;
+}
